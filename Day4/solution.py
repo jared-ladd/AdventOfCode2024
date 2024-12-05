@@ -66,5 +66,5 @@ for i in range(1, 139):
         potentialX = grid[i-1:i+2,j-1:j+2]
         part2count += 1 if is_X_of_MAS(potentialX) else 0
 
-print(part2count)
+print(f'Part 2 count: {part2count}')
         
