@@ -28,12 +28,6 @@ def swapOnBrokenRules(update):
             update[left] = update[right]
             update[right] = tmp
 
-            
-
-# for update in updates:
-#     while not checkRules(update):
-#         swapOnBrokenRules(update)
-
 part1total = 0
 part2total = 0
 for update in updates:
